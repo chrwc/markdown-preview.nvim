@@ -13,7 +13,7 @@ body {
   --secondary-background-color: #f6f8fa;
 }
 
-[data-theme="dark"] {
+[data-theme="alt"] {
   --foreground-color: #c9d1d9;
   --background-color: #0d1117;
   --border-color: #30363d;
@@ -40,7 +40,7 @@ main {
 
 #page-ctn {
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1920px;
   color: var(--foreground-color);
 }
 
@@ -50,7 +50,7 @@ main {
   padding: 8px;
   background-color: var(--background-color);
   border-color: var(--border-color);
-  border-style: solid;
+  border-style: none;
   border-width: 1px 1px 0;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
